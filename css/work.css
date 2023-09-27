@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+img{
+	max-width: 100%;
+}
+.flex{
+	display:flex;
+
+}
+.justify{
+	justify-content: center;
+}
+.align{
+	align-items: center;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+header{
+	padding: 15px;
+	margin: 0;
+	border: #683ff945;
+	border-style: solid;
+	background-color: black;
+}
+.container{
+	max-width: 1200px;
+}
+.logo{
+	flex-basis: ;
+	max-width: 10%;
+	flex-basis: 10%;
+}
+.logo a{
+
+}
+.logo a img{
+
+}
+nav{
+
+max-width: 60%;
+
+flex-basis: 60%;
+}
+ul{
+
+display: flex;
+
+justify-content: flex-end;
+
+gap: 20px;
+
+font-size: 20px;
+
+list-style: none;
+
+text-decoration: none;
+}
+li{
+
+}
+nav a{
+	
+text-decoration: none;
+	
+color: white;
+	
+font-weight: 900;
+transition-duration: .5s;
+}
+nav a:hover{
+	color: grey;
+}
+
+/**BANNER SECTION */
+.hero_banner{
+
+	background-image: url(../images/hero.jpg);
+	min-height: 500px;
+}
+.hero_banner h1{
+	color: white;
+	font-size: 50px;
+	font-weight: 900;
+}
+.col_1_2{
+	flex-basis: 50%;
+	padding: 10px;
+
+}
+.col_1_2 img{
+	aspect-ratio: 1/1;
+
+}
+.hover_img{
+	position: relative;
+
+}
+.hover_img h2{
+	
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+.hover_img a{
+	 position: absolute;
+	 bottom: 19px;
+	 right: 20px;
+	 color: white;
+	 font-size: 20px;
+	 background-color: black;
+}
